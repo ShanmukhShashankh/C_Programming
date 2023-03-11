@@ -40,5 +40,3 @@ int main(){
     printf("Monthly Cost: %d \n",MonthlyCost);
     return 0;
 } */
-
-// Hello World
