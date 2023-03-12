@@ -16,13 +16,21 @@ int main(){
 }
 
 
-/* #include<stdio.h>
+#include<stdio.h>
 int main(){
     int C,F,O,D,M,TotalCost,MonthlyCost;
+
+    printf("Enter the cost C for the first F kms followed by the value of F: ");
     scanf("%d", &C);
     scanf("%d", &F);
+
+    printf("Enter the cost O for every km afterward: ");
     scanf("%d", &O);
+
+    printf("Enter the distance from your home to office: ");
     scanf("%d", &D);
+
+    printf("Enter the number of months to calculate the fare for: ");
     scanf("%d", &M);
 
     if(2*D>=F){
@@ -34,7 +42,7 @@ int main(){
 
     MonthlyCost = M * 30 * TotalCost;
 
-    printf("Total Cost: %d \n",TotalCost);
-    printf("Monthly Cost: %d \n",MonthlyCost);
+    printf("Total Cost of the round trip per day: %d \n",TotalCost);
+    printf("Fare cost for %d months: %d \n",M,MonthlyCost);
     return 0;
-} */
+}
