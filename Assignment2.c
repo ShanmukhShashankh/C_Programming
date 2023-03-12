@@ -1,7 +1,7 @@
-/* #include<stdio.h>
+#include<stdio.h>
 int main(){
     const int population = 80000;
-    int men,women,lit_men,lit_women,illit_men=0,illit_women=0;
+    int men,women,lit_men,lit_women,illit_men,illit_women;
     men  = population*52/100;
     women = population*(100-52)/100;
     lit_men = population*35/100;
@@ -9,13 +9,11 @@ int main(){
     illit_men = men - lit_men;
     illit_women = women - lit_women;
 
-    printf("Number of literate men in the town: %d \n", lit_men);
-    printf("Number of literate women in the town: %d \n", lit_women);
     printf("Number of illiterate men in the town: %d \n", illit_men);
     printf("Number of illiterate women in the town: %d \n", illit_women);
 
     return 0;
-} */
+}
 
 
 /* #include<stdio.h>
