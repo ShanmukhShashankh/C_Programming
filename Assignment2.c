@@ -1,4 +1,4 @@
-#include<stdio.h>
+/* #include<stdio.h>
 int main(){
     const int population = 80000;
     int men,women,lit_men,lit_women,illit_men,illit_women;
@@ -14,7 +14,7 @@ int main(){
 
     return 0;
 }
-
+ */
 
 #include<stdio.h>
 int main(){
@@ -33,11 +33,11 @@ int main(){
     printf("Enter the number of months to calculate the fare for: ");
     scanf("%d", &M);
 
-    if(2*D>=F){
-        TotalCost = C + (2 * D - F ) * O;
+    if(D>=F){
+        TotalCost = 2*(C + ( D - F ) * O);
     }
     else{
-        TotalCost = C;
+        TotalCost = 2*C;
     }
 
     MonthlyCost = M * 30 * TotalCost;
@@ -46,3 +46,4 @@ int main(){
     printf("Fare cost for %d months: %d \n",M,MonthlyCost);
     return 0;
 }
+
